@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">project.testextgitproj_new1.documenttypes</value>
+  <value name="node_pkg">TestExtGitProj_New1Project</value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">Santhosh.K8@ibm.com</value>
+    <value name="modifiedBy">Santhosh.K8@ibm.com</value>
+    <value name="createdDate">2026-11-12T09:48:14.223183128Z</value>
+    <value name="lastModifiedDate">2026-11-12T09:48:14.223183128Z</value>
+  </record>
+  <value name="is_public">false</value>
+</Values>
