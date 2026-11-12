@@ -7,3 +7,16 @@ packages:
   gitUrl: https://github.com/santhu736852
   gitUsername: santhu736852
   gitBranch: main
+services:
+- serviceName: project.testextgitproj_new1.integrations:T1
+  packages:
+  - name: TestExtGitProj_New1Project
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1330
+- serviceName: project.testextgitproj_new1.streaming.connections:EmbeddedMessaging
+  packages:
+  - name: TestExtGitProj_New1Project
+    version: "1.0"
