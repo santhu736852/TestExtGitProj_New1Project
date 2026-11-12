@@ -1,26 +1,30 @@
+version: "1.0"
 info:
   model: int-scaffold
 packages:
-- gitBranch: main
+- name: TestExtGitProj_New1Project
   gitServerName: GH_SK_Shared
   gitUrl: https://github.com/santhu736852
   gitUsername: santhu736852
-  name: TestExtGitProj_New1Project
+  gitBranch: main
 services:
-- packages:
+- serviceName: project.testextgitproj_new1.integrations:T1
+  packages:
   - name: TestExtGitProj_New1Project
     version: 1.1.2
-  serviceName: project.testextgitproj_new1.integrations:T1
-- packages:
+- serviceName: pub.date:getCurrentDate
+  packages:
   - name: WmPublic
     version: 12.1.0.0.1330
-  serviceName: pub.date:getCurrentDate
-- packages:
+- serviceName: project.testextgitproj_new1.integrations:T2
+  packages:
   - name: TestExtGitProj_New1Project
     version: 1.1.2
-  serviceName: project.testextgitproj_new1.integrations:T2
-- packages:
+- serviceName: project.testextgitproj_new1.integrations:T3
+  packages:
   - name: TestExtGitProj_New1Project
     version: 1.1.2
-  serviceName: project.testextgitproj_new1.streaming.connections:EmbeddedMessaging
-version: '1.0'
+- serviceName: project.testextgitproj_new1.streaming.connections:EmbeddedMessaging
+  packages:
+  - name: TestExtGitProj_New1Project
+    version: 1.1.2
